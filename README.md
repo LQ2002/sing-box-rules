@@ -7,7 +7,7 @@
         "format": "source",
         "download_detour": "direct",
         "tag": "aws-ip",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/icloud@cn.srs"
+        "url": "https://raw.githubusercontent.com/LQ2002/sing-box-rules/main/aws-ip.json"
 }
 ```
 ## srs:
