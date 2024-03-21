@@ -5,6 +5,9 @@
 > https://github.com/MetaCubeX/meta-rules-dat  
 > https://github.com/xmdhs/sing-box-ruleset
 
+## 规则转换命令:
+> sing-box rule-set compile --output Example-final.srs Example.json
+
 ## json:
 ```
 {
