@@ -1,5 +1,10 @@
 # 仅自用
 
+## 规则推荐：
+> https://github.com/Yuu518/sing-box-rules
+> https://github.com/MetaCubeX/meta-rules-dat
+> https://github.com/xmdhs/sing-box-ruleset
+
 ## json:
 ```
 {
