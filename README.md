@@ -8,6 +8,9 @@
 ## 规则转换命令:
 ` sing-box rule-set compile --output Example-final.srs Example.json `
 
+## sing-box配置转换
+> https://github.com/xmdhs/clash2sfa
+
 ## json:
 ```
 {
