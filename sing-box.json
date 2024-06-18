@@ -82,7 +82,8 @@
             },
             {
                 "rule_set": [
-                    "geosite-cn"
+                    "geosite-cn",
+                    "geosite-tld-cn"
                 ],
                 "server": "local"
             },
@@ -91,11 +92,14 @@
                 "mode": "and",
                 "rules": [
                     {
-                        "rule_set": "geosite-geolocation-!cn",
+                        "rule_set": "geosite-!cn",
                         "invert": true
                     },
                     {
-                        "rule_set": "geoip-cn"
+                        "rule_set": [
+                            "geoip-cn",
+                            "DustinWin-ipcn"
+                        ]
                     }
                 ],
                 "server": "google",
@@ -422,11 +426,15 @@
                 "outbound": "direct",
                 "rules": [
                     {
+                        "invert":true,
+                        "rule_set":[
+                            "geolocation-!cn"
+                        ]
+                    },
+                    {
                         "rule_set": [
-                            "geolocation-cn",
                             "geosite-cn",
                             "DustinWin-sitecn",
-                            "cloudflare-cn",
                             "geosite-tld-cn"
                         ]
                     },
@@ -529,6 +537,14 @@
                 "type": "remote",
                 "update_interval": "1d",
                 "url": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/cnip.srs"
+            },
+            {
+                "download_detour": "代理",
+                "format": "binary",
+                "tag": "geosite-!cn",
+                "type": "remote",
+                "update_interval": "1d",
+                "url": "https://raw.githubusercontent.com/Yuu518/sing-box-rules/rule_set/rule_set_site/geolocation-!cn-all.srs"
             }
         ]
     }
