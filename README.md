@@ -32,3 +32,7 @@
         "url": "https://raw.githubusercontent.com/LQ2002/sing-box-rules/main/aws-ip.srs"
 }
 ```
+## .srs To .json
+```
+sing-box rule-set decompile Example.srs -o Example.json
+```
