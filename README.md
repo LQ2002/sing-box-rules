@@ -33,6 +33,7 @@
 }
 ```
 ## .srs To .json
+! sing-box版本需要大于1.10.0-alpha.19
 ```
 sing-box rule-set decompile Example.srs -o Example.json
 ```
