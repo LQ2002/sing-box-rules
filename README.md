@@ -1,39 +1,7 @@
 # 仅自用
 
-## 规则推荐：
-> https://github.com/Yuu518/sing-box-rules  
-> https://github.com/MetaCubeX/meta-rules-dat  
-> https://github.com/xmdhs/sing-box-ruleset  
-> https://github.com/TG-Twilight/AWAvenue-Ads-Rule
-
-## 规则转换命令:
-` sing-box rule-set compile --output Example-final.srs Example.json `
-
-## sing-box配置转换
-> https://github.com/xmdhs/clash2sfa
-
-## json:
-```
-{
-        "type": "remote",
-        "format": "source",
-        "download_detour": "direct",
-        "tag": "aws-ip",
-        "url": "https://raw.githubusercontent.com/LQ2002/sing-box-rules/main/aws-ip.json"
-}
-```
-## srs:
-```
-{
-        "type": "remote",
-        "format": "binary",
-        "download_detour": "direct",
-        "tag": "aws-ip",
-        "url": "https://raw.githubusercontent.com/LQ2002/sing-box-rules/main/aws-ip.srs"
-}
-```
-## .srs To .json
-! sing-box版本需要大于1.10.0-alpha.19
-```
-sing-box rule-set decompile Example.srs -o Example.json
-```
+## 规则整理：
+> https://github.com/MetaCubeX/meta-rules-dat/tree/meta
+> https://github.com/ForestL18/rules-dat/tree/mihomo/geo
+> https://github.com/Repcz/Tool/tree/X/Surge/Rules #classical
+> https://github.com/ForestL18/rules-dat/blob/mihomo/asn/combined #ASN.mrs
