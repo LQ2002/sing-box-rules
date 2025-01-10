@@ -5,3 +5,7 @@
 > https://github.com/ForestL18/rules-dat/tree/mihomo/geo  
 > https://github.com/Repcz/Tool/tree/X/Surge/Rules #classical  
 > https://github.com/ForestL18/rules-dat/blob/mihomo/asn/combined #ASN.mrs
+
+## 配置整理
+> https://github.com/JohnsonRan/CRules/blob/master/config/AIO.yaml  
+> https://github.com/refined-fish/clash_rule_fish/blob/main/FISH-Template.yaml
