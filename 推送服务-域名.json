@@ -1,10 +1,10 @@
 {
-  "version": 1,
-  "rules": [
-    {
-      "domain_suffix": ".push.apple.com",
-      "domain":"mobile-gtalk.l.google.com",
-      "domain_regex": "^(alt[1-8]-)?mtalk4?(-(staging|dev))?\\.google\\.com$"
-    }
-  ]
+    "version": 1,
+    "rules": [
+        {
+            "domain_suffix": ".push.apple.com",
+            "domain": "mobile-gtalk.l.google.com",
+            "domain_regex": "^(alt[1-8]-)?(mtalk4?(-(staging|dev))?|alt[1-8]-mtalk)\\.google\\.com$"
+        }
+    ]
 }
